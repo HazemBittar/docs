@@ -24,16 +24,20 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`20240329`, `edge`](https://github.com/alpinelinux/docker-alpine/blob/a89bb0df27ce47646e8f9955934f0d0093c2d18e/x86_64/Dockerfile)
--	[`3.19.1`, `3.19`, `3`, `latest`](https://github.com/alpinelinux/docker-alpine/blob/7385303148c97ef32a3f225ec03bafa46b689d12/x86_64/Dockerfile)
--	[`3.18.6`, `3.18`](https://github.com/alpinelinux/docker-alpine/blob/08dbcabbd55e7430a326b582e544c6e1695126f3/x86_64/Dockerfile)
--	[`3.17.7`, `3.17`](https://github.com/alpinelinux/docker-alpine/blob/1041155cbf4b410b02729c23a198d632945a1744/x86_64/Dockerfile)
--	[`3.16.9`, `3.16`](https://github.com/alpinelinux/docker-alpine/blob/9c372c82f691cfe76c2058d75e2c4f9cd589d4c5/x86_64/Dockerfile)
+-	[`20260805`, `edge`](https://github.com/alpinelinux/docker-alpine/blob/410e6fcf56b6bfd6e6b3acf0ab59a5ad1381ca54/x86_64/Dockerfile)
+
+-	[`3.24.4`, `3.24`, `3`, `latest`](https://github.com/alpinelinux/docker-alpine/blob/0c9af76133a2dd9a31dedf3600e423087b29a879/x86_64/Dockerfile)
+
+-	[`3.23.8`, `3.23`](https://github.com/alpinelinux/docker-alpine/blob/25ff554b9ad20357b815a70e212f43b5d366e8db/x86_64/Dockerfile)
+
+-	[`3.22.8`, `3.22`](https://github.com/alpinelinux/docker-alpine/blob/4e376baa03cfee6fbebd5ca593e980899807e975/x86_64/Dockerfile)
+
+-	[`3.21.10`, `3.21`](https://github.com/alpinelinux/docker-alpine/blob/db8785d223475e7f494be032c44f2342e21496d3/x86_64/Dockerfile)
 
 # Quick reference (cont.)
 
 -	**Where to file issues**:  
-	[https://github.com/alpinelinux/docker-alpine/issues](https://github.com/alpinelinux/docker-alpine/issues?q=)
+	[https://github.com/alpinelinux/docker-alpine/issues](https://github.com/alpinelinux/docker-alpine/issues?q=is:issue+is:pr)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/alpine/), [`arm32v6`](https://hub.docker.com/r/arm32v6/alpine/), [`arm32v7`](https://hub.docker.com/r/arm32v7/alpine/), [`arm64v8`](https://hub.docker.com/r/arm64v8/alpine/), [`i386`](https://hub.docker.com/r/i386/alpine/), [`ppc64le`](https://hub.docker.com/r/ppc64le/alpine/), [`riscv64`](https://hub.docker.com/r/riscv64/alpine/), [`s390x`](https://hub.docker.com/r/s390x/alpine/)

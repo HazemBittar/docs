@@ -24,59 +24,122 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`8`, `8u412`, `8u412-al2`, `8-al2-full`, `8-al2-jdk`, `8-al2-generic`, `8u412-al2-generic`, `8-al2-generic-jdk`, `latest`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/8/jdk/al2-generic/Dockerfile)
--	[`8-al2023`, `8u412-al2023`, `8-al2023-jdk`, `8-al2023-jre`, `8u412-al2023-jre`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/8/jdk/al2023/Dockerfile)
--	[`8-al2-native-jre`, `8u412-al2-native-jre`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/8/jre/al2/Dockerfile)
--	[`8-al2-native-jdk`, `8u412-al2-native-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/8/jdk/al2/Dockerfile)
--	[`8-alpine3.16`, `8u412-alpine3.16`, `8-alpine3.16-full`, `8-alpine3.16-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/8/jdk/alpine/3.16/Dockerfile)
--	[`8-alpine3.16-jre`, `8u412-alpine3.16-jre`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/8/jre/alpine/3.16/Dockerfile)
--	[`8-alpine3.17`, `8u412-alpine3.17`, `8-alpine3.17-full`, `8-alpine3.17-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/8/jdk/alpine/3.17/Dockerfile)
--	[`8-alpine3.17-jre`, `8u412-alpine3.17-jre`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/8/jre/alpine/3.17/Dockerfile)
--	[`8-alpine3.18`, `8u412-alpine3.18`, `8-alpine3.18-full`, `8-alpine3.18-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/8/jdk/alpine/3.18/Dockerfile)
--	[`8-alpine3.18-jre`, `8u412-alpine3.18-jre`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/8/jre/alpine/3.18/Dockerfile)
--	[`8-alpine3.19`, `8u412-alpine3.19`, `8-alpine3.19-full`, `8-alpine3.19-jdk`, `8-alpine`, `8u412-alpine`, `8-alpine-full`, `8-alpine-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/8/jdk/alpine/3.19/Dockerfile)
--	[`8-alpine3.19-jre`, `8u412-alpine3.19-jre`, `8-alpine-jre`, `8u412-alpine-jre`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/8/jre/alpine/3.19/Dockerfile)
--	[`11`, `11.0.23`, `11.0.23-al2`, `11-al2-full`, `11-al2-jdk`, `11-al2-generic`, `11.0.23-al2-generic`, `11-al2-generic-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/11/jdk/al2-generic/Dockerfile)
--	[`11-al2023`, `11.0.23-al2023`, `11-al2023-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/11/jdk/al2023/Dockerfile)
--	[`11-al2023-headless`, `11.0.23-al2023-headless`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/11/headless/al2023/Dockerfile)
--	[`11-al2023-headful`, `11.0.23-al2023-headful`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/11/headful/al2023/Dockerfile)
--	[`11-al2-native-headless`, `11.0.23-al2-native-headless`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/11/headless/al2/Dockerfile)
--	[`11-al2-native-jdk`, `11.0.23-al2-native-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/11/jdk/al2/Dockerfile)
--	[`11-alpine3.16`, `11.0.23-alpine3.16`, `11-alpine3.16-full`, `11-alpine3.16-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/11/jdk/alpine/3.16/Dockerfile)
--	[`11-alpine3.17`, `11.0.23-alpine3.17`, `11-alpine3.17-full`, `11-alpine3.17-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/11/jdk/alpine/3.17/Dockerfile)
--	[`11-alpine3.18`, `11.0.23-alpine3.18`, `11-alpine3.18-full`, `11-alpine3.18-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/11/jdk/alpine/3.18/Dockerfile)
--	[`11-alpine3.19`, `11.0.23-alpine3.19`, `11-alpine3.19-full`, `11-alpine3.19-jdk`, `11-alpine`, `11.0.23-alpine`, `11-alpine-full`, `11-alpine-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/11/jdk/alpine/3.19/Dockerfile)
--	[`17`, `17.0.11`, `17.0.11-al2`, `17-al2-full`, `17-al2-jdk`, `17-al2-generic`, `17.0.11-al2-generic`, `17-al2-generic-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/17/jdk/al2-generic/Dockerfile)
--	[`17-al2023`, `17.0.11-al2023`, `17-al2023-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/17/jdk/al2023/Dockerfile)
--	[`17-al2023-headless`, `17.0.11-al2023-headless`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/17/headless/al2023/Dockerfile)
--	[`17-al2023-headful`, `17.0.11-al2023-headful`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/17/headful/al2023/Dockerfile)
--	[`17-al2-native-headless`, `17.0.11-al2-native-headless`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/17/headless/al2/Dockerfile)
--	[`17-al2-native-headful`, `17.0.11-al2-native-headful`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/17/headful/al2/Dockerfile)
--	[`17-al2-native-jdk`, `17.0.11-al2-native-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/17/jdk/al2/Dockerfile)
--	[`17-alpine3.16`, `17.0.11-alpine3.16`, `17-alpine3.16-full`, `17-alpine3.16-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/17/jdk/alpine/3.16/Dockerfile)
--	[`17-alpine3.17`, `17.0.11-alpine3.17`, `17-alpine3.17-full`, `17-alpine3.17-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/17/jdk/alpine/3.17/Dockerfile)
--	[`17-alpine3.18`, `17.0.11-alpine3.18`, `17-alpine3.18-full`, `17-alpine3.18-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/17/jdk/alpine/3.18/Dockerfile)
--	[`17-alpine3.19`, `17.0.11-alpine3.19`, `17-alpine3.19-full`, `17-alpine3.19-jdk`, `17-alpine`, `17.0.11-alpine`, `17-alpine-full`, `17-alpine-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/17/jdk/alpine/3.19/Dockerfile)
--	[`21`, `21.0.3`, `21.0.3-al2`, `21-al2-full`, `21-al2-jdk`, `21-al2-generic`, `21.0.3-al2-generic`, `21-al2-generic-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/21/jdk/al2-generic/Dockerfile)
--	[`21-al2023`, `21.0.3-al2023`, `21-al2023-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/21/jdk/al2023/Dockerfile)
--	[`21-al2023-headless`, `21.0.3-al2023-headless`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/21/headless/al2023/Dockerfile)
--	[`21-al2023-headful`, `21.0.3-al2023-headful`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/21/headful/al2023/Dockerfile)
--	[`21-alpine3.16`, `21.0.3-alpine3.16`, `21-alpine3.16-full`, `21-alpine3.16-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/21/jdk/alpine/3.16/Dockerfile)
--	[`21-alpine3.17`, `21.0.3-alpine3.17`, `21-alpine3.17-full`, `21-alpine3.17-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/21/jdk/alpine/3.17/Dockerfile)
--	[`21-alpine3.18`, `21.0.3-alpine3.18`, `21-alpine3.18-full`, `21-alpine3.18-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/21/jdk/alpine/3.18/Dockerfile)
--	[`21-alpine3.19`, `21.0.3-alpine3.19`, `21-alpine3.19-full`, `21-alpine3.19-jdk`, `21-alpine`, `21.0.3-alpine`, `21-alpine-full`, `21-alpine-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/21/jdk/alpine/3.19/Dockerfile)
--	[`22-al2023`, `22.0.1-al2023`, `22-al2023-jdk`, `22`, `22-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/22/jdk/al2023/Dockerfile)
--	[`22-al2023-headless`, `22.0.1-al2023-headless`, `22-headless`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/22/headless/al2023/Dockerfile)
--	[`22-al2023-headful`, `22.0.1-al2023-headful`, `22-headful`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/22/headful/al2023/Dockerfile)
--	[`22-alpine3.16`, `22.0.1-alpine3.16`, `22-alpine3.16-full`, `22-alpine3.16-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/22/jdk/alpine/3.16/Dockerfile)
--	[`22-alpine3.17`, `22.0.1-alpine3.17`, `22-alpine3.17-full`, `22-alpine3.17-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/22/jdk/alpine/3.17/Dockerfile)
--	[`22-alpine3.18`, `22.0.1-alpine3.18`, `22-alpine3.18-full`, `22-alpine3.18-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/22/jdk/alpine/3.18/Dockerfile)
--	[`22-alpine3.19`, `22.0.1-alpine3.19`, `22-alpine3.19-full`, `22-alpine3.19-jdk`, `22-alpine`, `22.0.1-alpine`, `22-alpine-full`, `22-alpine-jdk`](https://github.com/corretto/corretto-docker/blob/681bfefafc18d88293253af8b529454855f76c81/22/jdk/alpine/3.19/Dockerfile)
+-	[`8-al2`, `8u512-al2`, `8-al2-full`, `8-al2-jdk`, `8-al2-generic`, `8u512-al2-generic`, `8-al2-generic-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jdk/al2-generic/Dockerfile)
+
+-	[`8-al2023`, `8u512-al2023`, `8-al2023-jdk`, `8`, `8-jdk`, `8u512`, `latest`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jdk/al2023/Dockerfile)
+
+-	[`8-al2023-jre`, `8u512-al2023-jre`, `8-jre`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jre/al2023/Dockerfile)
+
+-	[`8-al2-native-jre`, `8u512-al2-native-jre`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jre/al2/Dockerfile)
+
+-	[`8-al2-native-jdk`, `8u512-al2-native-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jdk/al2/Dockerfile)
+
+-	[`8-alpine3.21`, `8u512-alpine3.21`, `8-alpine3.21-full`, `8-alpine3.21-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jdk/alpine/3.21/Dockerfile)
+
+-	[`8-alpine3.21-jre`, `8u512-alpine3.21-jre`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jre/alpine/3.21/Dockerfile)
+
+-	[`8-alpine3.22`, `8u512-alpine3.22`, `8-alpine3.22-full`, `8-alpine3.22-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jdk/alpine/3.22/Dockerfile)
+
+-	[`8-alpine3.22-jre`, `8u512-alpine3.22-jre`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jre/alpine/3.22/Dockerfile)
+
+-	[`8-alpine3.23`, `8u512-alpine3.23`, `8-alpine3.23-full`, `8-alpine3.23-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jdk/alpine/3.23/Dockerfile)
+
+-	[`8-alpine3.23-jre`, `8u512-alpine3.23-jre`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jre/alpine/3.23/Dockerfile)
+
+-	[`8-alpine3.24`, `8u512-alpine3.24`, `8-alpine3.24-full`, `8-alpine3.24-jdk`, `8-alpine`, `8u512-alpine`, `8-alpine-full`, `8-alpine-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jdk/alpine/3.24/Dockerfile)
+
+-	[`8-alpine3.24-jre`, `8u512-alpine3.24-jre`, `8-alpine-jre`, `8u512-alpine-jre`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/8/jre/alpine/3.24/Dockerfile)
+
+-	[`11-al2`, `11.0.33-al2`, `11-al2-full`, `11-al2-jdk`, `11-al2-generic`, `11.0.33-al2-generic`, `11-al2-generic-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/11/jdk/al2-generic/Dockerfile)
+
+-	[`11-al2023`, `11.0.33-al2023`, `11-al2023-jdk`, `11`, `11-jdk`, `11.0.33`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/11/jdk/al2023/Dockerfile)
+
+-	[`11-al2023-headless`, `11.0.33-al2023-headless`, `11-headless`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/11/headless/al2023/Dockerfile)
+
+-	[`11-al2023-headful`, `11.0.33-al2023-headful`, `11-headful`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/11/headful/al2023/Dockerfile)
+
+-	[`11-al2-native-headless`, `11.0.33-al2-native-headless`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/11/headless/al2/Dockerfile)
+
+-	[`11-al2-native-jdk`, `11.0.33-al2-native-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/11/jdk/al2/Dockerfile)
+
+-	[`11-alpine3.21`, `11.0.33-alpine3.21`, `11-alpine3.21-full`, `11-alpine3.21-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/11/jdk/alpine/3.21/Dockerfile)
+
+-	[`11-alpine3.22`, `11.0.33-alpine3.22`, `11-alpine3.22-full`, `11-alpine3.22-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/11/jdk/alpine/3.22/Dockerfile)
+
+-	[`11-alpine3.23`, `11.0.33-alpine3.23`, `11-alpine3.23-full`, `11-alpine3.23-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/11/jdk/alpine/3.23/Dockerfile)
+
+-	[`11-alpine3.24`, `11.0.33-alpine3.24`, `11-alpine3.24-full`, `11-alpine3.24-jdk`, `11-alpine`, `11.0.33-alpine`, `11-alpine-full`, `11-alpine-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/11/jdk/alpine/3.24/Dockerfile)
+
+-	[`17-al2`, `17.0.21-al2`, `17-al2-full`, `17-al2-jdk`, `17-al2-generic`, `17.0.21-al2-generic`, `17-al2-generic-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/17/jdk/al2-generic/Dockerfile)
+
+-	[`17-al2023`, `17.0.21-al2023`, `17-al2023-jdk`, `17`, `17-jdk`, `17.0.21`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/17/jdk/al2023/Dockerfile)
+
+-	[`17-al2023-headless`, `17.0.21-al2023-headless`, `17-headless`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/17/headless/al2023/Dockerfile)
+
+-	[`17-al2023-headful`, `17.0.21-al2023-headful`, `17-headful`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/17/headful/al2023/Dockerfile)
+
+-	[`17-al2-native-headless`, `17.0.21-al2-native-headless`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/17/headless/al2/Dockerfile)
+
+-	[`17-al2-native-headful`, `17.0.21-al2-native-headful`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/17/headful/al2/Dockerfile)
+
+-	[`17-al2-native-jdk`, `17.0.21-al2-native-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/17/jdk/al2/Dockerfile)
+
+-	[`17-alpine3.21`, `17.0.21-alpine3.21`, `17-alpine3.21-full`, `17-alpine3.21-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/17/jdk/alpine/3.21/Dockerfile)
+
+-	[`17-alpine3.22`, `17.0.21-alpine3.22`, `17-alpine3.22-full`, `17-alpine3.22-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/17/jdk/alpine/3.22/Dockerfile)
+
+-	[`17-alpine3.23`, `17.0.21-alpine3.23`, `17-alpine3.23-full`, `17-alpine3.23-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/17/jdk/alpine/3.23/Dockerfile)
+
+-	[`17-alpine3.24`, `17.0.21-alpine3.24`, `17-alpine3.24-full`, `17-alpine3.24-jdk`, `17-alpine`, `17.0.21-alpine`, `17-alpine-full`, `17-alpine-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/17/jdk/alpine/3.24/Dockerfile)
+
+-	[`21-al2`, `21.0.13-al2`, `21-al2-full`, `21-al2-jdk`, `21-al2-generic`, `21.0.13-al2-generic`, `21-al2-generic-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/21/jdk/al2-generic/Dockerfile)
+
+-	[`21-al2023`, `21.0.13-al2023`, `21-al2023-jdk`, `21`, `21-jdk`, `21.0.13`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/21/jdk/al2023/Dockerfile)
+
+-	[`21-al2023-headless`, `21.0.13-al2023-headless`, `21-headless`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/21/headless/al2023/Dockerfile)
+
+-	[`21-al2023-headful`, `21.0.13-al2023-headful`, `21-headful`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/21/headful/al2023/Dockerfile)
+
+-	[`21-alpine3.21`, `21.0.13-alpine3.21`, `21-alpine3.21-full`, `21-alpine3.21-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/21/jdk/alpine/3.21/Dockerfile)
+
+-	[`21-alpine3.22`, `21.0.13-alpine3.22`, `21-alpine3.22-full`, `21-alpine3.22-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/21/jdk/alpine/3.22/Dockerfile)
+
+-	[`21-alpine3.23`, `21.0.13-alpine3.23`, `21-alpine3.23-full`, `21-alpine3.23-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/21/jdk/alpine/3.23/Dockerfile)
+
+-	[`21-alpine3.24`, `21.0.13-alpine3.24`, `21-alpine3.24-full`, `21-alpine3.24-jdk`, `21-alpine`, `21.0.13-alpine`, `21-alpine-full`, `21-alpine-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/21/jdk/alpine/3.24/Dockerfile)
+
+-	[`25-al2023`, `25.0.5-al2023`, `25-al2023-jdk`, `25`, `25-jdk`, `25.0.5`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/25/jdk/al2023/Dockerfile)
+
+-	[`25-al2023-headless`, `25.0.5-al2023-headless`, `25-headless`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/25/headless/al2023/Dockerfile)
+
+-	[`25-al2023-headful`, `25.0.5-al2023-headful`, `25-headful`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/25/headful/al2023/Dockerfile)
+
+-	[`25-alpine3.21`, `25.0.5-alpine3.21`, `25-alpine3.21-full`, `25-alpine3.21-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/25/jdk/alpine/3.21/Dockerfile)
+
+-	[`25-alpine3.22`, `25.0.5-alpine3.22`, `25-alpine3.22-full`, `25-alpine3.22-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/25/jdk/alpine/3.22/Dockerfile)
+
+-	[`25-alpine3.23`, `25.0.5-alpine3.23`, `25-alpine3.23-full`, `25-alpine3.23-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/25/jdk/alpine/3.23/Dockerfile)
+
+-	[`25-alpine3.24`, `25.0.5-alpine3.24`, `25-alpine3.24-full`, `25-alpine3.24-jdk`, `25-alpine`, `25.0.5-alpine`, `25-alpine-full`, `25-alpine-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/25/jdk/alpine/3.24/Dockerfile)
+
+-	[`27-al2023`, `27.0.1-al2023`, `27-al2023-jdk`, `27`, `27-jdk`, `27.0.1`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/27/jdk/al2023/Dockerfile)
+
+-	[`27-al2023-headless`, `27.0.1-al2023-headless`, `27-headless`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/27/headless/al2023/Dockerfile)
+
+-	[`27-al2023-headful`, `27.0.1-al2023-headful`, `27-headful`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/27/headful/al2023/Dockerfile)
+
+-	[`27-alpine3.21`, `27.0.1-alpine3.21`, `27-alpine3.21-full`, `27-alpine3.21-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/27/jdk/alpine/3.21/Dockerfile)
+
+-	[`27-alpine3.22`, `27.0.1-alpine3.22`, `27-alpine3.22-full`, `27-alpine3.22-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/27/jdk/alpine/3.22/Dockerfile)
+
+-	[`27-alpine3.23`, `27.0.1-alpine3.23`, `27-alpine3.23-full`, `27-alpine3.23-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/27/jdk/alpine/3.23/Dockerfile)
+
+-	[`27-alpine3.24`, `27.0.1-alpine3.24`, `27-alpine3.24-full`, `27-alpine3.24-jdk`, `27-alpine`, `27.0.1-alpine`, `27-alpine-full`, `27-alpine-jdk`](https://github.com/corretto/corretto-docker/blob/caa8bb41ccfed132a4836a08a3db024f5d79fb73/27/jdk/alpine/3.24/Dockerfile)
 
 # Quick reference (cont.)
 
 -	**Where to file issues**:  
-	[https://github.com/corretto/corretto-docker/issues](https://github.com/corretto/corretto-docker/issues?q=)
+	[https://github.com/corretto/corretto-docker/issues](https://github.com/corretto/corretto-docker/issues?q=is:issue+is:pr)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/amazoncorretto/), [`arm64v8`](https://hub.docker.com/r/arm64v8/amazoncorretto/)
